@@ -12,7 +12,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello from Spring Boot";
+        return "Hello from Jenkins Webhook";
     }
 
     @GetMapping("/health")
